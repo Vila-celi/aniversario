@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 95vw;
+    height: 95vh;
+    background-color: black;
+    background-image: url(../img/fondo1.jpg);
+    background-size: contain; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
+
+
+   
+
+.cajas {
+    color: rgb(184, 7, 7);
+    display: grid;
+    padding-top: 10vh;
+    justify-items: end;
+    align-items: stretch;
+    grid-template-columns: 20vw 50vw 25vw;
+    grid-template-rows: 60vh 10vh;
+}
+
+
+a {
+    text-decoration: none ; 
+    color: rgb(0, 3, 5);
+    font-size: 30px;
+    text-shadow: 5px 2px 5px rgb(249, 249, 249);
+    justify-items: end;
+    align-items: end;
+    transition: color 0.3s ease;
+    
+}
+
+a:hover {
+  color:#f20808;
+}
+
+
+
+  @media screen and (min-width: 768px) {
+    body {
+        width: 95vw;
+        height: 95vh;
+        background-size: 60vw 90vh; ; /* Hace que la imagen cubra todo el fondo */
+
+      }
+
+    .cajas {
+        padding: 30px 20vw 0 20vw;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 26vh 46vh 26vh;
+    }
+  }
+
+ 

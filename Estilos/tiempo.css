@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none ; 
+}
+
+.primeraimg, .segundaimg , .terceraimg, #san_rafael {
+    width: 95vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonviaje, .boton_paciencia  {
+    display: block;
+}
+
+button {
+    margin: 15px auto;
+    color: #b5b3b3; /* Color del texto del botón */
+    background-color: rgb(18, 18, 57);
+    border: none; /* Elimina el borde predeterminado del botón */
+    border-radius: 9px; /* Bordes redondeados */
+    padding: 15px 30px; /* Espacio interior del botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, transform 0.3s; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+  }
+
+.volver_primer {
+    display: none;
+}
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
+
+.fotos_primer {
+    display: block;
+}
+
+#san_rafael {
+    display: none;
+    margin-top: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el contenido */
+    
+    z-index: 10; /* Asegura que el footer esté por encima de otros elementos */
+}
+
+
+.boton_play, .atras , .boton_play2 , .boton_play3 {
+    font-size: 30px;  
+    
+}
+
+
+/* SEGUNDO AÑO */
+
+
+
+.carousel-inner{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.carousel-item img {
+    object-fit: contain; /* Ajusta las imágenes dentro del contenedor, manteniendo la proporción */
+    width: 100%; /* Asegura que las imágenes ocupen el ancho completo del carrusel */
+    height: auto; /* Mantiene la altura automática para evitar distorsiones */
+}
+.segundo_inicio {
+    background-color: black;
+    
+}
+
+.arvo-regular-italic {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.segundo_texto{
+    font-family: "Arvo", serif;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-left: 25vw;
+    
+}
+
+
+
+/* tercero */
+
+.tercero_img , .toggle-image {
+    width: 45vw;
+    height: 220px;
+    filter: grayscale(100%);
+}
+
+.imagenes_tercer, .seccion_cuarto{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1em;
+}
+
+
+
+.boton_carta ,.boton_paciencia{
+    margin-left: 27vw;
+}
+
+#carta_tres {
+    display: none;
+    color: beige;
+    font-family: "Arvo", serif;
+}
+
+
+/* Cuarto */
+
+.cuarto {
+    background-color: black;
+    
+}
+
+.cuarto_img{
+    width: 45vw;
+    height: 200px;
+}
+
+.seccion_cuarto {
+   margin-left: 5px;
+   margin-bottom: 15px;
+}
+
+#videos_carrusel{
+    display: none;
+}
+
+
+/* quinto */
+
+.video_despedida {
+    margin: auto;
+    width: 98vw;
+    height: 80vh;
+}
